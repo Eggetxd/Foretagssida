@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+ 
+body {
+  background-color: #f8f4f1;
+}
+ 
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #d0b895;
+  padding: 20px;
+}
+ 
+header div {
+  background-color: #fa8405;
+}
+ 
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+}
+ 
+
