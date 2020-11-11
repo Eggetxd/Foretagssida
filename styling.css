@@ -8,16 +8,18 @@ body {
 
 header {
   display: grid;
-  grid-template-columns: 15vw 100px 1fr 10vw 1fr 10vw 1fr 10vw 1fr 10vw 15vw;
+  grid-template-columns: 100px 1fr 10vw 1fr 10vw 1fr 10vw 1fr minmax(80px, 10vw);
+  grid-auto-rows: auto;
   background-color: #d0b895;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 30px;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 
 header h1 {
-  grid-column-start: 2;
-  color: #4D3E2E;
+  color: #4d3e2e;
 }
 
 .center {
@@ -33,16 +35,21 @@ a {
   background-color: #fa8405;
   width: 10vw;
   text-decoration: none;
+  justify-content: end;
+}
+
+#bestallning {
+  min-width: 80px;
 }
 
 a:hover {
   background-color: #c96a04;
   text-decoration: underline;
-  text-decoration-color: #4D3E2E;
+  text-decoration-color: #4d3e2e;
 }
 
 p {
-  color: #4D3E2E;
+  color: #4d3e2e;
 }
 
 .mid-row {
