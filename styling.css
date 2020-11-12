@@ -7,9 +7,8 @@ body {
 }
 
 header {
-  display: grid;
-  grid-template-columns: 100px 1fr 10vw 1fr 10vw 1fr 10vw 1fr minmax(80px, 10vw);
-  grid-auto-rows: auto;
+  display: flex;
+  flex-wrap: wrap;
   background-color: #d0b895;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -20,6 +19,8 @@ header {
 
 header h1 {
   color: #4d3e2e;
+  margin-right: 3vw;
+  width: 100px;
 }
 
 .center {
@@ -34,12 +35,14 @@ a {
   display: flex;
   background-color: #fa8405;
   width: 10vw;
+  min-width: 100px;
   text-decoration: none;
   justify-content: end;
+  margin-right: 3vw;
 }
 
 #bestallning {
-  min-width: 80px;
+  margin-right: 0;
 }
 
 a:hover {
