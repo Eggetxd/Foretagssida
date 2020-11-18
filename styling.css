@@ -70,12 +70,15 @@ p {
   display: flex;
   justify-content: end;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .left-center {
   display: flex;
   align-items: center;
   justify-content: start;
+  margin-bottom: 20px;
+  margin-right: 5vw;
 }
 
 .img{
