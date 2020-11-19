@@ -41,7 +41,7 @@ a {
   margin-right: 3vw;
 }
 
-#bestallning {
+#beställningLänk {
   margin-right: 0;
 }
 
@@ -85,3 +85,43 @@ p {
   width: 20vw;
   min-width: 150px;
 }
+
+.beställKnapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fa8405;
+  width: 7vw;
+  min-width: 70px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.beställKnapp:hover {
+  background-color: #c96a04;
+  text-decoration: underline;
+  text-decoration-color: #4d3e2e;
+}
+
+#beställning {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#beställning .img {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#beställningsMeny {
+  display: grid;
+  width: 45vw;
+  min-width: 200px;
+  grid-template-rows: auto;
+  grid-template-columns: auto minmax(70px, 10%);
+}
+
+#beställningsMeny p {
+  margin-bottom: 20px;
+}
+
