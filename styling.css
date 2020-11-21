@@ -51,13 +51,19 @@ a:hover {
   text-decoration-color: #4d3e2e;
 }
 
-p {
-  color: #4d3e2e;
-}
-
 .mid-row {
   margin-left: 15vw;
   margin-right: 15vw;
+}
+
+.storBild {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.mid-row h1 {
+  margin-bottom: 20px;
 }
 
 #meny {
@@ -110,11 +116,9 @@ p {
   min-width: 250px;
   grid-template-rows: auto;
   grid-template-columns: auto minmax(70px, 7vw);
-  margin-top: 20px;
 }
 
 .beställVal {
-  margin-bottom: 20px;
   margin-right: 20px;
   display: flex;
   align-content: center;
@@ -133,7 +137,7 @@ p {
   width: 100%;
   height: 40px;
   margin-right: 0;
-  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #om {
@@ -153,9 +157,47 @@ p {
 .omColumn {
   width: 28%;
   min-width: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 .omColumn p {
   margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  margin-top: 10px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  background-color: #d0b895;
+}
+
+footer div {
+  padding-bottom: 10px;
+}
+
+#oppettider {
+  margin-right: 8vw;
+}
+
+p {
+  color: #4d3e2e;
+  font-family: "Helvetica Neue";
+}
+
+a p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #4d3e2e;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  color: #4d3e2e;
+  font-family: 'Roboto', sans-serif;
 }
