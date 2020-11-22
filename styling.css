@@ -168,6 +168,7 @@ a:hover {
 }
 
 footer {
+  /*position:absolut; ?*/
   display: flex;
   margin-top: 10px;
   padding-left: 15vw;
@@ -176,6 +177,7 @@ footer {
   padding-bottom: 20px;
   flex-wrap: wrap;
   background-color: #d0b895;
+  bottom: 0;
 }
 
 footer div {
@@ -205,6 +207,11 @@ h1 {
 }
 
 h2 {
+  color: #4d3e2e;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
   color: #4d3e2e;
   font-family: 'Roboto', sans-serif;
 }
