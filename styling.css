@@ -168,7 +168,7 @@ a:hover {
 }
 
 footer {
-  /*position:absolut; ?*/
+  position: absolute;
   display: flex;
   margin-top: 10px;
   padding-left: 15vw;
