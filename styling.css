@@ -168,8 +168,6 @@ a:hover {
 }
 
 footer {
-  position: absolute;
-  width:70vw;
   display: flex;
   margin-top: 10px;
   padding-left: 15vw;
@@ -178,7 +176,6 @@ footer {
   padding-bottom: 20px;
   flex-wrap: wrap;
   background-color: #d0b895;
-  bottom: 0;
 }
 
 footer div {
